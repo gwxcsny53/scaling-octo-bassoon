@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +11,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
-    <style lang="">
-        .inpo{
-            position: fixed;
-            bottom: 0;
-        }
-    </style>
 </head>
+
 <body>
-    <div class="btn-group btn-group-justified btn-group-lg inpo" role="group" >
-        <div class="btn-group btn-group-lg" role="group">
-          <button type="button" class="btn btn-default"><a href="./leave.html">离校</a></button>
+    <div class="panel panel-success">
+        <div class="panel-heading"></div>
+    </div>
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">入校-离校</h3>
         </div>
-        <div class="btn-group btn-group-lg" role="group">
-          <button type="button" class="btn btn-default">
-            <a href="./return.html">入校</a>
-        </button>
+        <div class="panel-body">
+            <button type="button" class="btn btn-lg btn-block" onclick="returnSc()">入校</button>
+            <button type="button" class="btn btn-lg btn-block" onclick="leaveSc()">
+                离校
+            </button>
         </div>
-      </div>
+    </div>
+    <script>
+        function leaveSc() {
+            window.location.href = "leave.html"
+        }
+        function returnSc() {
+            window.location.href = "return.html"
+        }
+    </script>
 </body>
+
 </html>
