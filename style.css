@@ -1,0 +1,200 @@
+.pad{padding-left: 0;
+    padding-right: 0;}
+.iconsize {
+  font-size: 27px;
+  margin: 15px;
+}
+.row1 {
+  padding-left: 30px;
+  width: 250px;
+}
+.row2 {
+  box-shadow: 0 2px 10px #d4d4d4;
+  margin-bottom: 20px;
+}
+.f1 {
+  text-align: center;
+  font-size: 24px;
+  color: red;
+}
+.f2 {
+  border-bottom: 2px solid;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.tit1 {
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+.inp1 {
+  border: none;
+  border-radius: 0;
+  /* border-bottom: 2px solid #ccc; */
+  box-shadow: none;
+}
+.xing1 {
+  display: inline-block;
+  color: red;
+}
+.tit2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 13px;
+}
+.tit3 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.form2 {
+  box-shadow: 0 2px 2px #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.grp1 {
+  border-bottom: 2px solid rgba(204, 204, 204, 0.253);
+}
+.grp1 .inp1 {
+  border: none;
+}
+.grp1 label {
+  margin-top: 6px;
+}
+.form3 {
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 1px 2px #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.rely{margin-top: 30px;
+margin-bottom: 20px;}
+.arti{
+    margin-top: 50px;
+
+}
+.ar-tit{text-align: center;font-size: 18px;
+    font-weight: 600;}
+.ar-line{text-indent: 30px;}
+/* 签名 */
+.cname{
+    height: 180px;
+    line-height: 140px;
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+}
+.cname img{
+    width: 100%;
+}
+.arti2{
+    margin-bottom:50px
+}
+.ar-line2{font-weight: 800;
+    font-size: 13px;}
+/* final */
+.final{
+    background-color: #F7F6FB;
+    line-height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.arti3{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sub{
+    height: 40px;
+    background-color: #2B8CF5;
+    line-height: 40px;
+    font-size: 15px;
+    border-radius: 2px;
+    padding-left: 10px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.form-control{padding-left: 0;
+    font-weight: bold;
+    /* border-bottom: 2px solid #ccc; */
+    width: 100%;}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    opacity: 1;
+    background-color: #fff;
+}
+/* finxed */
+.fixed-top{
+    position:sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 5;
+}
+.fixed-bot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    height: 80px;
+    line-height: 76px;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+/* flowPath */
+.flow{
+    padding-left: 0;
+}
+.flowTop{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.flowBot{
+    height: 500px;
+}
+.flow-img{
+    float: left;
+    width: 200px;
+}
+.flow-img img{
+    width: 100%;
+}
+.flow-time{
+    float: left;
+    width: 120px;
+    height: 500px;
+}
+.flow-time li{
+    width: 100%;
+    overflow: hidden;
+    height: 14px;
+    margin-bottom: 70px;
+}
+.fl-input{
+    margin: 0;
+    height: 14px;
+    position: absolute;
+    width: 120px;
+    font-size: 10px;
+    border: none;
+    background: none;
+    color: #959595;
+}
+.fl-input:focus{
+    border: none;
+}
+/* input line in every 
+ */
+ .input-botline{
+    border-bottom: 2px solid #ccc;
+ }
