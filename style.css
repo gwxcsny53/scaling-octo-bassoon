@@ -166,6 +166,7 @@ margin-bottom: 20px;}
 }
 .flowBot{
     height: 500px;
+    overflow: hidden;
 }
 .flow-img{
     float: left;
@@ -184,18 +185,22 @@ margin-bottom: 20px;}
     overflow: hidden;
     height: 15px;
     margin-top: 2px;
-    margin-bottom: 70px;
+    margin-bottom: 69px;
     list-style: none;
 }
 .fl-input{
     margin: 0;
     height: 15px;
     position: absolute;
+    
+    overflow: hidden;
+
     width: 120px;
-    font-size: 13px;
+    font-size: 12px;
     border: none;
     background: none;
     color: #959595;
+    line-height: 15px;
 }
 .fl-input:focus{
     border: none;
@@ -236,4 +241,15 @@ margin-bottom: 20px;}
  }
  .return-time{
    height: 300px;
+ }
+.return-time li{
+  margin-bottom: 75px;
+}
+.return-time .fl-input{
+  line-height: 20px;
+}
+
+ /* input backg */
+ .inp-bg{
+  background: #ebebeb;
  }

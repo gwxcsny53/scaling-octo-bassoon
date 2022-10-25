@@ -18,7 +18,9 @@
 
     <div class="row row2 fixed-top">
         <div class="col-xs-2">
-            <a href="./index.html"><div class="glyphicon glyphicon-menu-left text-muted iconsize"></div></a>
+            <a href="./index.html">
+                <div class="glyphicon glyphicon-menu-left text-muted iconsize"></div>
+            </a>
         </div>
         <div class="col-xs-10 row1">
             <div class="row ">
@@ -176,7 +178,8 @@
                                 *</div>
                         </label>
                         <div class="col-sm-10">
-                            <div class="input-botline"><input type="datetime-local" class="form-control inp1"></div>
+                            <div class="input-botline"><input type="datetime-local" class="form-control inp1 inp-bg">
+                            </div>
                         </div>
                         <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">交通方式 <div class="xing1">
                                 *
@@ -194,7 +197,8 @@
                                 *
                             </div></label>
                         <div class="col-sm-10">
-                            <div class="input-botline"><input type="datetime-local" class="form-control inp1"></div>
+                            <div class="input-botline"><input type="datetime-local" class="form-control inp1 inp-bg">
+                            </div>
                         </div>
                         <label for="inputEmail3"
                             class="col-sm-2 control-label text-muted tit1">途径具体路线《时间-地点-交通工具-经停时长-随行人员等信息)
@@ -314,11 +318,11 @@ padding-right: 15px;
             <div class="flowBot return-time">
                 <div class="flow-img"><img src="./img/return2.jpg" alt=""></div>
                 <div class="flow-time return-time">
-                    <li><input class="fl-input" type="text" value="2022/10/24 22:05" placeholder="2022/10/24 22:05">
+                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span>
                     </li>
-                    <li><input class="fl-input" type="text" value="2022/10/24 22:05" placeholder="2022/10/24 22:05">
+                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span>
                     </li>
-                    <li><input class="fl-input" type="text" value="2022/10/24 22:05" placeholder="2022/10/24 22:05">
+                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span>
                     </li>
                 </div>
             </div>
@@ -333,6 +337,16 @@ padding-right: 15px;
     <div class="fixed-bot">
         已通过
     </div>
+
+
+    <script>
+        function linetime(a) {
+            var time = prompt("enter time", "2022/10/24 22:05")
+            if (time != null && time != "") {
+                a.innerHTML = (time)
+            }
+        }
+    </script>
 
 
 
