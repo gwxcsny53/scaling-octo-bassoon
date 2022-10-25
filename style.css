@@ -251,5 +251,8 @@ margin-bottom: 20px;}
 
  /* input backg */
  .inp-bg{
+  background: none;
+ }
+ .div-inp-bg{
   background: #ebebeb;
  }
