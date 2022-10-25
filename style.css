@@ -252,6 +252,7 @@ margin-bottom: 20px;}
  /* input backg */
  .inp-bg{
   background: none;
+  text-align:left;
  }
  .div-inp-bg{
   background: #ebebeb;
