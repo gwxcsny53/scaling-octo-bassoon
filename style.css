@@ -165,7 +165,7 @@ margin-bottom: 20px;}
     margin-bottom: 10px;
 }
 .flowBot{
-    height: 500px;
+    height: 320px;
     overflow: hidden;
 }
 .flow-img{
@@ -252,8 +252,21 @@ margin-bottom: 20px;}
  /* input backg */
  .inp-bg{
   background: none;
-  text-align:left;
  }
  .div-inp-bg{
   background: #ebebeb;
+ }
+
+ /* img */
+ .Timeimg{
+  position: absolute;
+  width: 26px;
+  right: 16px;
+  top: 5px;
+}
+ .Selectimg{
+  position: absolute;
+  width: 20px;
+  right: 16px;
+  top: 8px;
  }
