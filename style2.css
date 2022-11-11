@@ -23,7 +23,7 @@
 .ar-tit { font-size: 22px; font-weight: bold; text-indent: 30px; margin-bottom: 5px; }
 .ar-line { text-indent: 30px; }
 /* 签名 */
-.cname { height: 180px; line-height: 180px; text-align: center; background-color:  rgb(234 234 234); }
+.cname { height: 180px; line-height: 180px; text-align: center; background-color:  rgb(234 234 234); overflow: hidden;}
 .cname img { width: 100%; }
 .arti2 { margin-bottom: 50px }
 .ar-line2 { font-weight: 800; font-size: 13px; }
@@ -69,4 +69,4 @@
 .Selectimg { position: absolute; width: 15px; right: 22px; top: 12px; }
 .Dragimg { width: 20px; float: right; margin-top: 10px; margin-right: 20px; }
 /* upload */
-.cname .upload { width: 25px; }
+.cname .upload {     width: 145px; }
