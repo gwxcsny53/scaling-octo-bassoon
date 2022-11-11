@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,10 +23,17 @@
             <h3 class="panel-title">入校-离校</h3>
         </div>
         <div class="panel-body">
-            <button type="button" class="btn btn-lg btn-block" onclick="returnSc()">入校</button>
-            <button type="button" class="btn btn-lg btn-block" onclick="leaveSc()">
-                离校
-            </button>
+            <button type="button" class="btn btn-lg btn-block" onclick="returnSc()">疫情防控入校申请E</button>
+            <button type="button" class="btn btn-lg btn-block" onclick="leaveSc()"> 疫情防控出校申请E</button>
+        </div>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">入校-离校</h3>
+        </div>
+        <div class="panel-body">
+            <button type="button" class="btn btn-lg btn-block" onclick="returnSc2()">入校</button>
+            <button type="button" class="btn btn-lg btn-block" onclick="leaveSc2()"> 离校</button>
         </div>
     </div>
     <script>
@@ -36,7 +43,13 @@
         function returnSc() {
             window.location.href = "return.html"
         }
+        function leaveSc2() {
+            window.location.href = "leave2.html"
+        }
+        function returnSc2() {
+            window.location.href = "return2.html"
+        }
     </script>
 </body>
--->
+
 </html>

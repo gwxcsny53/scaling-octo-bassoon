@@ -11,7 +11,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body class=".body" style="position: relative;padding-bottom: 80px;">
@@ -24,10 +24,10 @@
         </div>
         <div class="col-xs-10 row1">
             <div class="row ">
-                <h4>学生入校申请表</h4>
+                <h4>疫情防控入校申请E</h4>
             </div>
-            <div class="row text-muted">
-                2022-2023学年学生离校申请表
+            <div class="row text-muted ">
+                2022-2023疫情防控入校申请E
             </div>
         </div>
     </div>
@@ -35,18 +35,43 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 ftp2">入校申请已通过，允许入校</div>
+            <div class="col-xs-10 col-xs-offset-1 ftp2">入校报备已完成！
+                <br>
+                请按报备时间入校！
+            </div>
         </div>
-        <!-- 基本信息 -->
+        <!-- 出校申请 -->
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 pad">
-                <div class="f2">基本信息</div>
+                <div class="f2">出校申请</div>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 pad">
                 <form class="form-horizontal">
                     <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">拟出校日期</label>
+                        <div class="col-sm-10">
+                            <div class="input-botline div-inp-bg">
+                                <input type="text" class="form-control inp1 inp-bg" style="background: #ebebeb"
+                                    value="2022-12-12 14:30:22">
+                                <img src="./img/time.png" class="Timeimg" alt="">
+                            </div>
+                        </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">出校时长<div class="xing1">*
+                            </div></label>
+                        <div class="col-sm-10">
+                            <div class="input-botline"><input type="text" class="form-control inp1" value="申请当天往返">
+                                <img src="./img/select.png" class="Selectimg" alt="">
+                            </div>
+                        </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">出校类型<div class="xing1">*
+                            </div></label>
+                        <div class="col-sm-10">
+                            <div class="input-botline"><input type="text" class="form-control inp1" value="周六、周日或加节日出校">
+                                <img src="./img/select.png" class="Selectimg" alt="">
+                            </div>
+                        </div>
                         <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">姓名</label>
                         <div class="col-sm-10">
                             <div class="input-botline">
@@ -61,9 +86,8 @@
                         </div>
                         <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">性别</label>
                         <div class="col-sm-10">
-                            <div class="input-botline">
-                                <input type="text" class="form-control inp1" value="男">
-                                <img src="./img/select.png" alt="" class="Selectimg">
+                            <div class="input-botline"><input type="text" class="form-control inp1" value="男">
+                                <img src="./img/select.png" class="Selectimg" alt="">
                             </div>
                         </div>
                         <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">学院</label>
@@ -75,17 +99,10 @@
                         <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">年级</label>
                         <div class="col-sm-10">
                             <div class="input-botline">
-                                <input type="text" class="form-control inp1" placeholder="2022">
+                                <input type="text" class="form-control inp1">
                             </div>
                         </div>
                         <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">班级</label>
-                        <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1"></div>
-
-
-                        </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">联系方式<div class="xing1">*
-                            </div></label>
                         <div class="col-sm-10">
                             <div class="input-botline"><input type="text" class="form-control inp1"></div>
                         </div>
@@ -93,35 +110,94 @@
                         <div class="col-sm-10">
                             <div class="input-botline"><input type="text" class="form-control inp1"></div>
                         </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">现户籍所在地<div
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">联系方式</label>
+                        <div class="col-sm-10">
+                            <div class="input-botline"><input type="text" class="form-control inp1"></div>
+                        </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">外出目的地所在城市<div
                                 class="xing1">*</div></label>
                         <div class="col-sm-10">
                             <div class="input-botline"><input type="text" class="form-control inp1" value="福建省">
-                                <img src="./img/select.png" alt="" class="Selectimg">
+                                <img src="./img/select.png" class="Selectimg" alt="">
                             </div>
                         </div>
                         <div class="col-sm-10">
                             <div class="input-botline"><input type="text" class="form-control inp1" value="泉州市">
-                                <img src="./img/select.png" alt="" class="Selectimg">
+                                <img src="./img/select.png" class="Selectimg" alt="">
                             </div>
                         </div>
                         <div class="col-sm-10">
                             <div class="input-botline"><input type="text" class="form-control inp1" value="南安市">
-                                <img src="./img/select.png" alt="" class="Selectimg">
+                                <img src="./img/select.png" class="Selectimg" alt="">
                             </div>
                         </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">家庭地址<div class="xing1">*
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">外出目的地详细地址<div
+                                class="xing1">*</div></label>
+                        <div class="col-sm-10">
+                            <div class="input-botline"><input type="text" class="form-control inp1" placeholder="理发店"
+                                    readonly></div>
+
+                        </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">外出目的地城市风险等级<div
+                                class="xing1">*</div></label>
+                        <div class="col-sm-10">
+                            <div class="input-botline"><input type="text" class="form-control inp1" value="常态化防控区域">
+                                <img src="./img/select.png" class="Selectimg" alt="">
+                            </div>
+                        </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">外出事由<div class="xing1">*
                             </div></label>
                         <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1"></div>
+                            <div class="input-botline"><input type="text" class="form-control inp1" placeholder="理发"
+                                    readonly></div>
+
+                        </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">出行方式<div class="xing1">*
+                            </div></label>
+                        <div class="col-sm-10">
+                            <div class="input-botline"><input type="text" class="form-control inp1" value="步行">
+                                <img src="./img/select.png" class="Selectimg" alt="">
+                            </div>
+                        </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">班次<div class="xing1">*
+                            </div></label>
+                        <div class="col-sm-10">
+                            <div class="input-botline"><input type="text" class="form-control inp1" placeholder="步行"
+                                    readonly></div>
+                        </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">拟返校时间<div class="xing1">
+                                *</div></label>
+                        <div class="col-sm-10">
+                            <div class="input-botline div-inp-bg">
+                                <input type="text" class="form-control inp1 inp-bg" style="background: #ebebeb"
+                                    value="2022-11-12 14:30:22">
+                                <img src="./img/time.png" class="Timeimg" alt="">
+                            </div>
+                        </div>
+                        <div class="arti col-sm-10">
+                            <div class="ar-tit">疫情防控出入校承诺书</div>
+                            <div class="ar-line">
+                                本人承诺，已根据实际情况如实填写出入校信息，对所填信息的真实性负责，瞒报、谎报造成疫情扩散等严重后果的，愿意承担由此产生的责任。同时,出入校园时，会主动佩戴口罩，做好个人防护，严格按照申请的路线做到“点对点”往返，返校后按照疫情防控要求主动配合做好相关工作。
+                            </div>
+                        </div>
+                        <div class="rely text-muted col-sm-10">承诺人电子签名
+                            <div class="xing1">*</div>
+
+                        </div>
+                        <div class="cname text-muted qname">
+                            <img src="./img/name.png" alt="">
+                        </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1 ">书记/副书记审批时间</label>
+                        <div class="col-sm-10">
+                            <div class="input-botline div-inp-bg"><input type="input" class="form-control inp1 inp-bg">
+                                <img src="./img/time.png" class="Timeimg" alt="">
+                            </div>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-
-
-        <!-- 出行安排 -->
+        <!-- 入校申请 -->
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 pad">
                 <div class="f2">入校申请</div>
@@ -131,225 +207,150 @@
             <div class="col-xs-10 col-xs-offset-1 pad">
                 <form class="form-horizontal">
                     <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">入校前所在地区<div
-                                class="xing1">*</div></label>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">健康码</label>
                         <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1" value="福建省">
-                                <img src="./img/select.png" alt="" class="Selectimg">
+                            <div class="cname text-muted">
                             </div>
                         </div>
+                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">行程卡</label>
                         <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1" value="泉州市">
-                                <img src="./img/select.png" alt="" class="Selectimg">
+                            <div class="cname text-muted">
                             </div>
-                        </div>
-                        <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1" value="南安市">
-                                <img src="./img/select.png" alt="" class="Selectimg">
-                            </div>
-                        </div>
-                        <label for="inputEmail3"
-                            class="col-sm-2 control-label text-muted tit1">入校前详细住址(*省*市*区/县*镇/社区*乡/街道/村)
-                            <div class="xing1">*
-                            </div>
-                        </label>
-                        <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1"></div>
-                        </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">入校前所在地区风险等级<div
-                                class="xing1">*
-                            </div></label>
-                        <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1" value="常态化防控区域">
-                                <img src="./img/select.png" alt="" class="Selectimg">
-                            </div>
-                        </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">本人近三天腋下体温 <div
-                                class="xing1">*
-                            </div></label>
-                        <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1">
-                            </div>
-                        </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">入校前近10天行程轨迹 <div
-                                class="xing1">*
-                            </div></label>
-                        <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1"></div>
-                        </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label  tit2"
-                            style="margin-top: 20px;">备注:请详细记录下你返校前近10天具体行程轨迹。具体时间-地点-交通工具-经停时间-同行人员等均须详细说明。
-
-                            <div>范例:5月4日8:0O-9:00，独自一人/与XXX同行，从学校步行/乘坐XX路车/网约车前往......，10:00到
-                                达......，11:00步行至......购买.....物品，11:30-12:00步行/乘XX路车/网约车至......就餐，13:00步行/乘坐....，于14:00返回学校
-                            </div>
-
-                        </label>
-                        <div class="col-sm-10">
-                            <div class="retu-tit">返校行程安排</div>
-                        </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">出发时间 <div class="xing1">
-                                *</div>
-                        </label>
-                        <div class="col-sm-10">
-                            <div class="input-botline div-inp-bg"><input type="input" class="form-control inp1 inp-bg">
-                                <img src="./img/time.png" class="Timeimg" alt="">
-                            </div>
-                        </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">交通方式 <div class="xing1">
-                                *
-                            </div></label>
-                        <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1" value="家人接送">
-                                <img src="./img/select.png" alt="" class="Selectimg">
-                            </div>
-                        </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">班次或车牌号 <div
-                                class="xing1">*
-                            </div></label>
-                        <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1"></div>
-                        </div>
-                        <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">抵校时间 <div class="xing1">
-                                *
-                            </div></label>
-                        <div class="col-sm-10">
-                            <div class="input-botline div-inp-bg"><input type="input" class="form-control inp1 inp-bg">
-                                <img src="./img/time.png" class="Timeimg" alt="">
-                            </div>
-                        </div>
-                        <label for="inputEmail3"
-                            class="col-sm-2 control-label text-muted tit1">途径具体路线《时间-地点-交通工具-经停时长-随行人员等信息)
-                            <div class="xing1">*
-                            </div>
-                        </label>
-                        <div class="col-sm-10">
-                            <div class="input-botline"><input type="text" class="form-control inp1"></div>
-                        </div>
-                        <label for="inputEmail3"
-                            class="col-sm-2 control-label text-muted tit1">健康码、行程卡、返校前48小时核酸检测报告等材料上传
-                            <div class="xing1">*
-                            </div>
-                        </label>
-                        <!-- 健康码形成卡 -->
-                        <div class=" col-sm-10 control-label cname text-muted qname">
-                            <img src="./img/travel.jpg" alt="">
                         </div>
 
-                        <label
-                            class="col-sm-2 control-label remark-r">备注:请将本人健康码（截图需体现核酸检测阴性结果和疫苗接种情况)、行程码、入校前24小时内核酸检测报告拼成一张图（横向排列)后再上传。
-                        </label>
+
+                      
                 </form>
-                <div class="arti col-sm-10">
-                    <div class="ar-tit">疫情防控期间学生入校承诺书 </div>
-                    <div class="ar-line">本人做出如下承诺:
-                    </div>
-                    <div class="ar-line">一、本人及共同居住人没有被诊断为新冠肺炎确诊病例、无症状感染者或疑似病例,没有与新冠肺炎确诊病例、无症状感染者或疑似病例密切接触。
-
-                    </div>
-                    <div class="ar-line">二、本人及共同居住人没有境外（含港澳台)的旅居史、接触史等。
-
-                    </div>
-                    <div class="ar-line">
-                        三、本人及共同居住人近7天内无国内中高风险区、有本土病例报告的县（市、区)及中高风险区所在县(市、区)的旅居史、接触史等。
-
-                    </div>
-                    <div class="ar-line">四、本人未出现发热、干咳、咽痛、流鼻涕、腹泻、乏力等症状，身体健康状况良好。
-
-                    </div>
-                    <div class="ar-line">五、本人健康码为绿码。
-
-                    </div>
-                    <div class="ar-line">六、本人入校前24小时内核酸检测结果为阴性。
-
-                    </div>
-                    <div class="ar-line">七、共同居住人持有“双绿码”(健康码、通信大数据行程卡均为绿码)或48小时内核酸检测阴性证明。
-
-                    </div>
-                    <div class="ar-line">八、做好个人防护，严格遵守学校疫情防控相关规定，按照“点对点”方式入校。
-
-                    </div>
-                    <div class="ar-line">以上承诺内容真实准确，若存在故意隐瞒、谎报、编造、乱报等情况,或有其他扰乱学校疫情防控工作行为的，本人自愿承担由此引起的一切后果及法律责任。
-
-                    </div>
-                </div>
-                <div class="rely text-muted col-sm-10">承诺人电子签名
-                    <div class="xing1">*
-                    </div>
-                </div>
-                <div class="cname text-muted qname">
-                    <img src="./img/name.png" alt="">
-                </div>
+               
             </div>
         </div>
     </div>
-    <!-- 审批 -->
+
+    <!-- 出校审批 -->
     <div class="row">
         <div class="col-xs-10 col-xs-offset-1 pad">
-            <div class="f2">审批</div>
+            <div class="f2">出校审批</div>
         </div>
     </div>
     <div class="row">
         <div class="col-xs-10 col-xs-offset-1 pad">
             <form class="form-horizontal">
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">入校前7天健康情况结论</label>
-                    <div class="col-sm-10">
-                        <div class="input-botline"><input type="text" class="form-control inp1" value="符合入校要求" readonly>
-                            <img src="./img/select.png" alt="" class="Selectimg">
-                        </div>
-
-                    </div>
                     <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">辅导员审批意见</label>
                     <div class="col-sm-10">
-                        <div class="input-botline"><input type="text" class="form-control inp1" value="同意入校" readonly>
+                        <div class="input-botline"><input type="text" class="form-control inp1" value="同意外出" readonly>
                             <img src="./img/select.png" alt="" class="Selectimg">
                         </div>
 
                     </div>
-                    <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">辅导员签名</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">辅导员</label>
                     <div class="col-sm-10">
                         <div class="input-botline"><input type="text" class="form-control inp1" placeholder="谢光毅"
                                 readonly></div>
 
                     </div>
-
-
-
-                    <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">书记/副书记审批意见</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">辅导员审批时间</label>
                     <div class="col-sm-10">
-                        <div class="input-botline"><input type="text" class="form-control inp1" value="同意入校" readonly>
-                            <img src="./img/select.png" alt="" class="Selectimg">
+                        <div class="input-botline div-inp-bg"><input type="input" class="form-control inp1 inp-bg"
+                                value="2022-11-11 15:14:01">
+                            <img src="./img/time.png" class="Timeimg" alt="">
                         </div>
 
                     </div>
+                    <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">学工办负责人审批意见</label>
+                    <div class="col-sm-10">
+                        <div class="input-botline"><input type="text" class="form-control inp1" value="同意外出">
+                            <img src="./img/select.png" alt="" class="Selectimg">
+                        </div>
+                    </div>
+                    <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">学工办负责人审批时间</label>
+                    <div class="col-sm-10">
+                        <div class="input-botline div-inp-bg"><input type="input" class="form-control inp1  inp-bg">
+                            <img src="./img/time.png" class="Timeimg" alt="">
+                        </div>
+                    </div>
+                    <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">书记/副书记负责人审批意见</label>
+                    <div class="col-sm-10">
+                        <div class="input-botline"><input type="text" class="form-control inp1" placeholder="请选择">
+                            <img src="./img/select.png" alt="" class="Selectimg">
+                        </div>
+                    </div>
+                    <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">出校确切时间</label>
+                <div class="col-sm-10">
+                    <div class="input-botline div-inp-bg"><input type="input" class="form-control inp1  inp-bg" value="2022年10月22日 14:12:19">
+                        <img src="./img/time.png" class="Timeimg" alt="">
+                    </div>
+                </div>
+                <label for="inputEmail3" class="col-sm-2 control-label" style="margin-top: 20px;">说明:
+                    <span style="color: red;">
+                        请详细记录下你返校前近10天具体行程轨迹。具体时间-地点-交通工具-经停时间-同行人员等均须详细说明。
+                    </span>
+
+                    <div>范例:5月4日8:0O-9:00，独自一人/与XXX同行，从学校步行/乘坐XX路车/网约车前往......，10:00到
+                        达......，11:00步行至......购买.....物品，11:30-12:00步行/乘XX路车/网约车至......就餐，13:00步行/乘坐....，于14:00返回学校
+                    </div>
+
+                </label>
+                <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">往返目的地具体行程轨迹</label>
+                <div class="col-sm-10">
+                    <div class="input-botline"><input type="text" class="form-control inp1" placeholder="出门步行理发，超市购物，步行回校">
+                    </div>
+                </div>
+                <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">拟入校时间</label>
+                <div class="col-sm-10">
+                    <div class="input-botline"><input type="text" class="form-control inp1" value="2022-10-22 17:00:40">
+                        <img src="./img/time.png" alt="" class="Timeimg">
+                    </div>
+                </div>
+                <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">返回方式</label>
+                <div class="col-sm-10">
+                    <div class="input-botline"><input type="text" class="form-control inp1" value="步行" readonly>
+                        <img src="./img/select.png" alt="" class="Selectimg">
+                    </div>
+                </div>
+                <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">班次</label>
+                <div class="col-sm-10">
+                    <div class="input-botline"><input type="text" class="form-control inp1" placeholder="步行"
+                            readonly>
+                        <img src="./img/select.png" alt="" class="Selectimg">
+                    </div>
+                </div>
+                <label for="inputEmail3" class="col-sm-2 control-label text-muted tit1">入校信息确认</label>
+                <div class="col-sm-10">
+                    <div class="input-botline"><input type="text" class="form-control inp1" value="已如实填报入校信息">
+                        <img src="./img/select.png" alt="" class="Selectimg">
+                    </div>
+                </div>
+
+
 
             </form>
-
+            <div class="arti arti3">
+                <div class="ar-line2">入校说明︰入校时请出示入校审批通过界面，核验通过后，扫“完美校园”入校。
+                </div>
+            </div>
         </div>
     </div>
     </div>
-    <div class="row" style="
-padding-left: 15px;
-padding-right: 15px;
-">
+
+
+    <div class="row" style="padding-left: 15px;padding-right: 15px;">
         <div class="final">日志
             <img src="./img/drag.png" class="Dragimg" alt="">
         </div>
         <div class="final flow">
             <div class="flowTop">流程审批</div>
-            <div class="flowBot return-time">
-                <div class="flow-img"><img src="./img/return2.jpg" alt=""></div>
-                <div class="flow-time return-time">
-                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span>
-                    </li>
-                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span>
-                    </li>
-                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span>
-                    </li>
+            <div class="flowBot">
+                <div class="flow-img"><img src="./img/return3.jpg" alt=""></div>
+                <div class="flow-time">
+                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span></li>
+                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span></li>
+                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span></li>
+                    <li><span class="fl-input" onclick="linetime(this)">2022/10/24 22:05</span></li>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     </div>
@@ -370,9 +371,6 @@ padding-right: 15px;
             }
         }
     </script>
-
-
-
 
 </body>
 
